@@ -11,7 +11,6 @@ require 'strscan'
 require 'rack'
 
 require 'active_support/memoizable'
-require 'action_controller/cgi_ext'
 
 module ActionEmbedding
   class EmbeddedRequest < Rack::Request
